@@ -48,4 +48,4 @@ jobs:
         with:
           app-name: 'fintrendsanalyzer'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FCDA8344FF744EBBB70F8CB15AA9ECBA }}
-          package: ./dist/fintrendsanalyzer
+          package: .
